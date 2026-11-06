@@ -1,0 +1,40 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  color: #1e293b;
+  background-color: #f8fafc;
+}
+
+header {
+  background-color: #1e3a5f;
+  color: white;
+  padding: 20px;
+}
+
+main {
+  padding: 24px;
+}
+
+.imagem-noticia {
+  height: 140px;
+  background-color: #cbd5e1;
+}
+
+.card {
+  background-color: white;
+  border: 1px solid #cbd5e1;
+  border-radius: 8px;
+  padding: 16px;
+}
+
+.card h3 {
+  color: #1e3a5f;
+}
+
+.noticias {
+  padding: 8px;
+}

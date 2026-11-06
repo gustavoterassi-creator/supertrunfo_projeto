@@ -1,0 +1,37 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+.container {
+  display: flex;
+  gap: 5px;
+  width: 220px;
+  background-color: #e2e8f0;
+  padding: 5px;
+}
+
+.item {
+  flex-basis: 120px;
+  flex-shrink: 1;
+  height: 100px;
+  background-color: #64748b;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+}
+
+.item-b {
+  background-color: #0d9488;
+  flex-shrink: 1;
+}
+.item-a,
+.item-c {
+  flex-shrink: 2;
+}

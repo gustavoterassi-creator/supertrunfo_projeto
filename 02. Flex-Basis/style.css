@@ -1,0 +1,37 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  background-color: #0d9488;
+}
+
+.container {
+  display: flex;
+  gap: 10px;
+  width: 100%;
+  max-width: 600px;
+  background-color: #e2e8f0;
+  padding: 10px;
+}
+
+.item {
+  height: 100px;
+  background-color: #64748b;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+}
+
+.item-b {
+  background-color: #0d9488;
+}
+
+.item {
+  flex-basis: 250px;
+  flex-shrink: 0; /* impedir que escolhas */
+}

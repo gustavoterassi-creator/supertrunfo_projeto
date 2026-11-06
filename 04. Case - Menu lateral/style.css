@@ -1,0 +1,44 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+header {
+  background-color: #1e3a5f;
+  color: white;
+  padding: 20px;
+}
+
+.menu {
+  background-color: #e2e8f0;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  flex-basis: 20%;
+}
+
+.menu a {
+  display: flex;
+  color: #1e3a5f;
+  text-decoration: none;
+  padding: 10px;
+}
+
+main {
+  margin-left: 12px;
+  padding: 20px;
+  display: 20px;
+  flex-direction: column;
+  background-color: antiquewhite;
+  flex-basis: 80%;
+}
+
+.tudo {
+  display: flex;
+  flex-direction: row;
+  height: 850px;
+}
